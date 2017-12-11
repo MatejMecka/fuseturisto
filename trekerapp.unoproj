@@ -1,0 +1,35 @@
+{
+  "RootNamespace": "",
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+    "Fuse.Maps",
+    "Fuse.GeoLocation"
+  ],
+  "Includes": [
+    "*",
+    "Modules/*.js:Bundle",
+    "Assets/*.jpg:Bundle"
+  ],
+  "Projects": [
+    
+  ],
+
+"iOS": {
+  "PList": {
+    "NSCameraUsageDescription": "To take beautiful photos",
+    "NSPhotoLibraryUsageDescription": "To save your photos",
+    "NSMicrophoneUsageDescription": "We're not using your mic",
+    "NSContactsUsageDescription": "We dont want your contacts",
+    "NSLocationUsageDescription": "To show you the locations around you.",
+    "NSLocationAlwaysUsageDescription": "To show you the locations around you.",
+    "NSLocationWhenInUseUsageDescription": "To show you the locations around you."
+  }
+},
+
+  "Android": {
+     "Geo": {
+          "ApiKey": "AIzaSyAOEjtwMJ77dHVHiUUlZdRhL9swoch50OM"
+      }
+  }
+}
